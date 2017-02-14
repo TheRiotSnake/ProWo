@@ -1,5 +1,5 @@
 <center>
-	<br><h2>Eintragen</h2>
+	<br><h1>Eintragen</h1>
 </center>
 <form class="container" method="post" action="functionality/enterProjects.php">	
 	<?php

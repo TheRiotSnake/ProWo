@@ -1,5 +1,5 @@
 <center>
-	<br><h2>Passwort ändern</h2>
+	<br><h1>Passwort ändern</h1>
 </center>
 <form class="container" action="functionality/changePassword.php" method="post"> 
 	<label><b>Altes Passwort:</b></label>
