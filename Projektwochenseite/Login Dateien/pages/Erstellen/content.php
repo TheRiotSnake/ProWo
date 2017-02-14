@@ -1,5 +1,5 @@
 <center>
-	<h2>Projekt erstellen</h2>
+	<h1>Projekt erstellen</h1>
 </center>
 <form class="container" action="" method="post">	<!-- add action -->
 	<label><b>Projektname:</b></label>
