@@ -1,4 +1,4 @@
-﻿body {
+body {
 	margin: 0;
 	padding: 0;
 }
@@ -60,4 +60,9 @@ textarea {
 
 .status {
 	color: #FF0000;
+}
+
+.center {
+	display: flex;
+	align-content: center;
 }
