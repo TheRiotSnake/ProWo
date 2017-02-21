@@ -124,4 +124,12 @@
 			}
 		}
 	}
+	function addBackToTopButton() {
+		require("pages/".$_GET["page"]."/config.php");
+		if (isset($backToTop)?$backToTop:false) {
+			echo '
+				//Timo here
+			';
+		}
+	}
 ?>
