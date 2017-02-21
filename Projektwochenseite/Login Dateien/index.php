@@ -5,7 +5,7 @@
 	error_reporting(E_ALL);
 	ini_set('display_errors', 1);
 	set_include_path(__DIR__);	#Benötigt?
-	#$_SESSION['permission'] = 1;
+	#$_SESSION['permission'] = 2;
 	# ---               --- #
 	
 	if (!isset($_SESSION['permission'])) {		
@@ -27,6 +27,7 @@
 		closeNavigation();		
 		if (in_array($_GET['page'], $dirList)) {
 			require("pages/".$_GET['page']."/content.php");
+			addBackToTopButton();
 		}
 		else {
 			require("pages/NotFound/content.php");
